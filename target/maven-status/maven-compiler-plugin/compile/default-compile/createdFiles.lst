@@ -1,0 +1,4 @@
+com/example/authsamlservice/SecurityConfiguration.class
+com/example/authsamlservice/AuthSamlApplication.class
+com/example/authsamlservice/controllers/IndexController.class
+com/example/authsamlservice/domains/User.class

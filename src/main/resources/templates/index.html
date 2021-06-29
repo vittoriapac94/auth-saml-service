@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html  lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Homepage</title>
+</head>
+<body>
+<h1 th:text="'Welcome, ' + ${email} + '!'"></h1>
+<ul>
+  <li th:if="${email}" th:text="'Email : ' + ${email}"></li>
+  <li th:if="${firstName}" th:text="'First name: ' + ${firstName}"></li>
+  <li th:if="${lastName}" th:text="'Last name: ' + ${lastName}"></li>
+  <li th:if="${employeeNumber}" th:text="'Matricola: ' + ${employeeNumber}"></li>
+</ul>
+
+</body>
+</html>
